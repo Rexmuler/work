@@ -1,0 +1,139 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the entire sign-in section */
+  .sign-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Auth Box */
+  .auth-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .auth-box h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .auth-box p {
+    color: #777;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Google Sign-in Button */
+  .google-btn {
+    background-color: #db4437;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .google-btn:hover {
+    background-color: #c1351d;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+  }
+  
+  /* Email and Password Form */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #4caf50;
+  }
+  
+  /* Email Sign-in Button */
+  .email-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .email-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error Message */
+  .error {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Create Account Link */
+  .create-account-btn {
+    background: none;
+    color: #007bff;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .create-account-btn:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .auth-box {
+      padding: 20px;
+    }
+  
+    .auth-box h1 {
+      font-size: 20px;
+    }
+  
+    .google-btn,
+    .email-btn {
+      font-size: 14px;
+    }
+  }
+  
