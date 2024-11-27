@@ -41,7 +41,7 @@ const Dashboard = () => {
     try {
       await signOut(auth);
       alert("You have been signed out.");
-      navigate("/");
+      navigate("/work/");
       window.location.reload(); // Reload to ensure cleanup
     } catch (error) {
       console.error("Error signing out: ", error.message);
